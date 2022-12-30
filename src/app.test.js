@@ -9,7 +9,7 @@ test("get /hello", assert => {
     .expect(200)
     .end(err => {
       if (err) throw err;
-      assert.pass("should return 2000 OK");
+      assert.pass("should return 200 OK");
       assert.end();
     });
 });
@@ -20,7 +20,7 @@ test("get /goodbye", assert => {
     .expect(200)
     .end(err => {
       if (err) throw err;
-      assert.pass("should return 2000 OK");
+      assert.pass("should return 200 OK");
       assert.end();
     });
 });
